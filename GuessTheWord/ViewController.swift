@@ -17,9 +17,11 @@ class ViewController: UIViewController {
     let hints = ["How do you do?", "The school we are at", "go berz", "We are making an app for it."]
     
     var successfullyGuessed: [String] = []
+    var successfullyGuessedCounts: [Int] = []
     
     var currentWord: String!
     var currentWordIndex: Int!
+    var numGuesses: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,7 @@ class ViewController: UIViewController {
     }
     
     func setWord() {
+        numGuesses = 0
         currentWordIndex = Int.random(in: 0..<words.count)
         currentWord = words[currentWordIndex]
         print(currentWord)
@@ -35,7 +38,8 @@ class ViewController: UIViewController {
     
     func guessedCorrect() {
         successfullyGuessed.append(currentWord)
-        let rightAlert = UIAlertController(title: "Nice!", message: "You got the word!", preferredStyle: UIAlertController.Style.alert)
+        successfullyGuessedCounts.append(numGuesses)
+        let rightAlert = UIAlertController(title: "Nice!", message: "You got the word in " + String(numGuesses) + " tries!", preferredStyle: UIAlertController.Style.alert)
         rightAlert.addAction(UIAlertAction(title: "Play Again", style: .default, handler: { action in
             print("Pressed play again")
             self.dismiss(animated: true, completion: nil)
@@ -57,6 +61,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tappedGuess(_ sender: Any) {
+        numGuesses = numGuesses + 1
         let word = guessField.text
         if word == currentWord {
             guessedCorrect()
@@ -79,6 +84,7 @@ class ViewController: UIViewController {
         let navController = segue.destination as! UINavigationController
         let destination = navController.viewControllers[0] as! HistoryTableViewController
         destination.words = successfullyGuessed
+        destination.tries = successfullyGuessedCounts
     }
 }
 

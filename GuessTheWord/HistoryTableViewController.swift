@@ -11,10 +11,10 @@ import UIKit
 class HistoryTableViewController: UITableViewController {
     
     var words: [String]!
+    var tries: [Int]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,19 +29,17 @@ class HistoryTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return words.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "identifier", for: indexPath)
         cell.textLabel?.text = words[indexPath.row]
+        cell.detailTextLabel?.text = "Took " + String(tries[indexPath.row]) + " tries"
         return cell
     }
 
