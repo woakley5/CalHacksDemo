@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DE4B521CF4D14F4D25E8C076FA2A4DE /* Pods-GuessTheWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ACC80EA45C0D8C17CF763E4FF45B077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7E04D2CA0340CD533178AF45017B2B02 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */; };
+		000B2A6EC0F9251F50B662558BAB5277 /* Pods-GuessTheWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */; };
+		1004D34C455F8166BE516DB0ADAECDD2 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D17A13919FCB806D344D6DD9C753618 /* triangle.png */; };
+		1910A847C787A3DF750A5B23A206FC8F /* Pods-GuessTheWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235280DCD69555C9023BA81E84502555 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F0061AB6154942EC511ABF317542F99 /* star.png */; };
+		2B5E8842BE52E5DD870168D2F7233FB9 /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7E1F97610B68A35040FF96AA064C62D /* SAConfettiView.bundle */; };
+		34263BF42DFD9BEEAC0BFFF26DEF2FD1 /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4953B291D9BD8E67CA4F5FBB608C7113 /* SAConfettiView-dummy.m */; };
+		408866751326C56BDDC3F49A7578F691 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 0742B689852050DE210B67493B82E6DE /* confetti.png */; };
+		4F13B1AA5B81C3DCADB4EC820659F87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		8EBA073B0340FD906A268AF7EBB46725 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		933BE59B15A9F07D9335854EFD79A3B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 		955812F8FED38D8775401E5A48B9449E /* Pods-GuessTheWordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3D6D72EF9D6F5DD9F1AC6FF581135 /* Pods-GuessTheWordTests-dummy.m */; };
-		B4153C33F8029B48104C17B7DF824355 /* Pods-GuessTheWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */; };
-		B4E153039A4CDB520538F73C4F236D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B52A619095A969D8706A6011EFC6B09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B85818470172B049D7EB5606C2D2596F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		9F16514E65378EACCFD0645130B351E5 /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC0AFE27F30AE43AC9B35B18D095B34 /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52A619095A969D8706A6011EFC6B09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 		BB71289F77A11493530E6D42B3C7817B /* Pods-GuessTheWordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13BE30F87D6F170AF873E8DAB9D1AD6 /* Pods-GuessTheWordUITests-dummy.m */; };
 		C0ABD69CB14CF2862DE81B9301F252A0 /* Pods-GuessTheWordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA9E4712B1FE092D1A0E2A7347049D3 /* Pods-GuessTheWordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C26725EFBD83F0A121E837ED4C4EBED3 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCF172EFD8745E22A9FC5100388829DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CCF172EFD8745E22A9FC5100388829DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 		CCFD33B2A5F97DA7CD41C275C90341EB /* Pods-GuessTheWordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3377354A9D05BF57FEE411346A53E8F5 /* Pods-GuessTheWordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F65318BE42F71518608B9FD1A2B66CC9 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */; };
-		F92D3FDDB980036DC2C2136A885DEEE3 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */; };
+		D9115A02737603D18099556540968F9C /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F816E0189053030EAD9052DCBAC79 /* SAConfettiView.swift */; };
+		DD0B3FE65641731ED055D31560A45E84 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE00F1440F835366DA4E5E92177E157 /* diamond.png */; };
+		FCFA1D0DC73C3538D5DC72D4173196FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,74 +34,95 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EB5E6632E2A6B66B150087A049F0431;
+			remoteGlobalIDString = 4C2376D7B906C5E2E077B11A4F270B61;
 			remoteInfo = "Pods-GuessTheWord";
-		};
-		34E87F1B5ECBE534CA09256013EB9463 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFD9BD278230EB091031E7813538935D;
-			remoteInfo = SkyFloatingLabelTextField;
 		};
 		7611D33D19E4B0237BC06AFA8015086F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EB5E6632E2A6B66B150087A049F0431;
+			remoteGlobalIDString = 4C2376D7B906C5E2E077B11A4F270B61;
 			remoteInfo = "Pods-GuessTheWord";
+		};
+		7D62A60BE9B144827CE27A278D2A3FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904EECF2944066706B634B0E079BE0ED;
+			remoteInfo = SAConfettiView;
+		};
+		E9E399ACAC41F80027FB4235F1802E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C49FBDA0B9AE9E7A7D8C4E2E7A8425E;
+			remoteInfo = "SAConfettiView-SAConfettiView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		04463BF1886C46585CF36756F5EDEC6E /* Pods_GuessTheWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordTests.framework; path = "Pods-GuessTheWordTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0742B689852050DE210B67493B82E6DE /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		0D17A13919FCB806D344D6DD9C753618 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
+		1465C47199F41B89FB6289BF5C444C04 /* Pods_GuessTheWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWord.framework; path = "Pods-GuessTheWord.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1915D1D336EAF55AAA9095DBB6D6EB7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5BFE3FB1F635489B4BD8F7BD20CFEF /* Pods-GuessTheWordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EFF889DCB24CDCDEFE18F950E96BCD8 /* Pods-GuessTheWordTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordTests-resources.sh"; sourceTree = "<group>"; };
+		2BA9631CE48053E0EE1E99EEF5FA81B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3377354A9D05BF57FEE411346A53E8F5 /* Pods-GuessTheWordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWordTests-umbrella.h"; sourceTree = "<group>"; };
+		3DC0AFE27F30AE43AC9B35B18D095B34 /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
 		41CF2997ABF57E99DBF0F2BF1B11BCF9 /* Pods-GuessTheWordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		53EC18AF280E19D4645D86F7CF06CC3E /* Pods_GuessTheWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordUITests.framework; path = "Pods-GuessTheWordUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4953B291D9BD8E67CA4F5FBB608C7113 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		4A6F816E0189053030EAD9052DCBAC79 /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
 		548101A86C14E49FEB5652692A1208FF /* Pods-GuessTheWord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWord-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59A86F875BED558C0A3FD7BCF97FE48C /* Pods-GuessTheWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWord.debug.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60085BE28E184C5D78E3433D6A2A6B01 /* Pods-GuessTheWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62270B9A47A6BFD1FC61989CF34202D9 /* Pods-GuessTheWordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWordUITests.modulemap"; sourceTree = "<group>"; };
-		633D7BDF505E2188F809E236862D67BC /* Pods_GuessTheWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWord.framework; path = "Pods-GuessTheWord.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635B876ABE17D239203D41B2DA96CA4D /* Pods-GuessTheWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66C57791941CB0ADB3B1F54630AF05E6 /* Pods-GuessTheWordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWordTests.modulemap"; sourceTree = "<group>"; };
+		6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.xcconfig; sourceTree = "<group>"; };
+		6F0061AB6154942EC511ABF317542F99 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
+		784DD34A5DFC6255345780B5AD9C4AD6 /* Pods_GuessTheWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordUITests.framework; path = "Pods-GuessTheWordUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD737F00A0E5EA33EEB29F7B73B8365 /* Pods-GuessTheWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		8701C7764D0E354C5C319AC68C4BAB93 /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAConfettiView.framework; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE00F1440F835366DA4E5E92177E157 /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		920EB261031854A4D506A9225E7ADE57 /* Pods-GuessTheWord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWord.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F89B758128C704528479F8B10A8F52 /* Pods_GuessTheWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordTests.framework; path = "Pods-GuessTheWordTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96021B73AB3076CE469755681DF3DADF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B2C5974D294D10FFDE75AEE476B2F7 /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
+		9E9C314EB58BCE799FD6DE837BF6CA2E /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
 		B605A2FA70AAC37D75DC1B6A1E54319D /* Pods-GuessTheWordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordUITests-frameworks.sh"; sourceTree = "<group>"; };
 		B651B0404085A9B8D62162442C7DF3C2 /* Pods-GuessTheWord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWord-frameworks.sh"; sourceTree = "<group>"; };
+		B7E1F97610B68A35040FF96AA064C62D /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SAConfettiView.bundle; path = "SAConfettiView-SAConfettiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA22F49C822F9D84065B72A6C3445A6F /* Pods-GuessTheWordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordTests-frameworks.sh"; sourceTree = "<group>"; };
 		BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWord.release.xcconfig"; sourceTree = "<group>"; };
+		C621BC0EB0BE867F90214EB78A87390B /* ResourceBundle-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
 		C6B6D41DA49E75826C09FF2938C60AB4 /* Pods-GuessTheWordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWordTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9FDBFC96A76645658A5131BCD2259F6 /* Pods-GuessTheWord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWord-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB16BF1DA8DAA4F30D44AA9605D13BD4 /* Pods-GuessTheWord-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWord-resources.sh"; sourceTree = "<group>"; };
-		CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		CE29CEEDC33E34CA3E47CD310940A7EB /* Pods-GuessTheWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordTests.release.xcconfig"; sourceTree = "<group>"; };
 		CECB0A8B4783F528AD6ECE4A98D05E41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		D2C3D6D72EF9D6F5DD9F1AC6FF581135 /* Pods-GuessTheWordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWordTests-dummy.m"; sourceTree = "<group>"; };
-		D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D89F581C707A201E2120263993D2CED2 /* Pods-GuessTheWordUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordUITests-resources.sh"; sourceTree = "<group>"; };
-		DA6BDD7A6B921406311D47C26DB120B5 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		DC6B93B6C5275E5F4CFD51B778FC69FD /* Pods-GuessTheWordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		E13BE30F87D6F170AF873E8DAB9D1AD6 /* Pods-GuessTheWordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWordUITests-dummy.m"; sourceTree = "<group>"; };
 		E40A39C7652B3D969F82038C8DE4756B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWord-umbrella.h"; sourceTree = "<group>"; };
 		EDA9E4712B1FE092D1A0E2A7347049D3 /* Pods-GuessTheWordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWordUITests-umbrella.h"; sourceTree = "<group>"; };
 		F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWord-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		47A7D83284C28972D31924282C397AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA1D0DC73C3538D5DC72D4173196FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62006F3CB89373E84B8FCEE94E844348 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,42 +139,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4CEA3510C2A3BB4026FEAB07451FB70 /* Frameworks */ = {
+		D2C5443ADC922EAF05F161F1616856DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACC80EA45C0D8C17CF763E4FF45B077 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C519AF9CF1DE54D85E36A45071FE36 /* Frameworks */ = {
+		F9495F376CB15D01D57069D7039EBD81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E153039A4CDB520538F73C4F236D76 /* Foundation.framework in Frameworks */,
+				933BE59B15A9F07D9335854EFD79A3B9 /* Foundation.framework in Frameworks */,
+				8EBA073B0340FD906A268AF7EBB46725 /* QuartzCore.framework in Frameworks */,
+				4F13B1AA5B81C3DCADB4EC820659F87C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22BE21C78C4A0DAC64F6E147F68D32DD /* Products */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				633D7BDF505E2188F809E236862D67BC /* Pods_GuessTheWord.framework */,
-				93F89B758128C704528479F8B10A8F52 /* Pods_GuessTheWordTests.framework */,
-				53EC18AF280E19D4645D86F7CF06CC3E /* Pods_GuessTheWordUITests.framework */,
-				DA6BDD7A6B921406311D47C26DB120B5 /* SkyFloatingLabelTextField.framework */,
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */ = {
+		1E1694D9C8C0F55A9D79E8CA6A8E4007 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */,
+				2BA9631CE48053E0EE1E99EEF5FA81B5 /* Info.plist */,
+				C621BC0EB0BE867F90214EB78A87390B /* ResourceBundle-SAConfettiView-Info.plist */,
+				96B2C5974D294D10FFDE75AEE476B2F7 /* SAConfettiView.modulemap */,
+				6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */,
+				4953B291D9BD8E67CA4F5FBB608C7113 /* SAConfettiView-dummy.m */,
+				9E9C314EB58BCE799FD6DE837BF6CA2E /* SAConfettiView-prefix.pch */,
+				3DC0AFE27F30AE43AC9B35B18D095B34 /* SAConfettiView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAConfettiView";
+			sourceTree = "<group>";
+		};
+		271191552F2784497C776D9EBC9A2E77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92665AE6D8B5E43E1938545C2F78A8B1 /* SAConfettiView */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		43EFFAFEDD1588BA076432264B2B5935 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0742B689852050DE210B67493B82E6DE /* confetti.png */,
+				8FE00F1440F835366DA4E5E92177E157 /* diamond.png */,
+				6F0061AB6154942EC511ABF317542F99 /* star.png */,
+				0D17A13919FCB806D344D6DD9C753618 /* triangle.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		498BFCB39438E1CAFEFDBFC483780368 /* Pods-GuessTheWordTests */ = {
@@ -169,35 +219,13 @@
 			path = "Target Support Files/Pods-GuessTheWordTests";
 			sourceTree = "<group>";
 		};
-		4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				96021B73AB3076CE469755681DF3DADF /* Info.plist */,
-				CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */,
-				D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */,
-				477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */,
-				8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */,
-				CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */,
-				22BE21C78C4A0DAC64F6E147F68D32DD /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				271191552F2784497C776D9EBC9A2E77 /* Pods */,
+				CCA1DAF502F99A72B455A50D8BCE9180 /* Products */,
 				900BB216CF7C7FAF32310F4DB95FF26E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -212,24 +240,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		92665AE6D8B5E43E1938545C2F78A8B1 /* SAConfettiView */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				4A6F816E0189053030EAD9052DCBAC79 /* SAConfettiView.swift */,
+				43EFFAFEDD1588BA076432264B2B5935 /* Resources */,
+				1E1694D9C8C0F55A9D79E8CA6A8E4007 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SAConfettiView;
+			path = SAConfettiView;
 			sourceTree = "<group>";
 		};
-		BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */ = {
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */,
-				18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */,
-				4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */,
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C0B656C75DFC9DA0BC63977637653CD5 /* Pods-GuessTheWord */ = {
@@ -248,6 +277,18 @@
 			);
 			name = "Pods-GuessTheWord";
 			path = "Target Support Files/Pods-GuessTheWord";
+			sourceTree = "<group>";
+		};
+		CCA1DAF502F99A72B455A50D8BCE9180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1465C47199F41B89FB6289BF5C444C04 /* Pods_GuessTheWord.framework */,
+				04463BF1886C46585CF36756F5EDEC6E /* Pods_GuessTheWordTests.framework */,
+				784DD34A5DFC6255345780B5AD9C4AD6 /* Pods_GuessTheWordUITests.framework */,
+				B7E1F97610B68A35040FF96AA064C62D /* SAConfettiView.bundle */,
+				8701C7764D0E354C5C319AC68C4BAB93 /* SAConfettiView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F90047153F2C92DA6CBCEBB74120E80D /* Pods-GuessTheWordUITests */ = {
@@ -271,19 +312,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A7E9DE60612A769569668C3CC224BB9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C26725EFBD83F0A121E837ED4C4EBED3 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66896984F8393A9B523279CC5ED7BAAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0ABD69CB14CF2862DE81B9301F252A0 /* Pods-GuessTheWordUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4755C86D11FA4783B94E5CB07E53562 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16514E65378EACCFD0645130B351E5 /* SAConfettiView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,17 +336,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE485EB5E8FFF8F3B1483EF65D7D5E50 /* Headers */ = {
+		CCF6193ED03B90D0B0CC118C1C79153C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE4B521CF4D14F4D25E8C076FA2A4DE /* Pods-GuessTheWord-umbrella.h in Headers */,
+				1910A847C787A3DF750A5B23A206FC8F /* Pods-GuessTheWord-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0C49FBDA0B9AE9E7A7D8C4E2E7A8425E /* SAConfettiView-SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151836EA262945ABCE325DA097A95B18 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
+			buildPhases = (
+				D57020FB4441873A1EB4F8CE0C143075 /* Sources */,
+				D2C5443ADC922EAF05F161F1616856DE /* Frameworks */,
+				0C76CF2D37FB3685B051300CFA1B380A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAConfettiView-SAConfettiView";
+			productName = "SAConfettiView-SAConfettiView";
+			productReference = B7E1F97610B68A35040FF96AA064C62D /* SAConfettiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4C2376D7B906C5E2E077B11A4F270B61 /* Pods-GuessTheWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67410E22F4761E3F909D5EB30E434EAE /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */;
+			buildPhases = (
+				64373593A39B814B9BBBEE6CCF1129CD /* Sources */,
+				47A7D83284C28972D31924282C397AFF /* Frameworks */,
+				CCF6193ED03B90D0B0CC118C1C79153C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C625BF20B5911F2C426A288CB66B651 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuessTheWord";
+			productName = "Pods-GuessTheWord";
+			productReference = 1465C47199F41B89FB6289BF5C444C04 /* Pods_GuessTheWord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8CA3B2ACE314E9C0EFF4E76C332C52CD /* Pods-GuessTheWordTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AD2C3DB820F13CFB14E1518BACC849 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWordTests" */;
@@ -321,42 +397,26 @@
 			);
 			name = "Pods-GuessTheWordTests";
 			productName = "Pods-GuessTheWordTests";
-			productReference = 93F89B758128C704528479F8B10A8F52 /* Pods_GuessTheWordTests.framework */;
+			productReference = 04463BF1886C46585CF36756F5EDEC6E /* Pods_GuessTheWordTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8EB5E6632E2A6B66B150087A049F0431 /* Pods-GuessTheWord */ = {
+		904EECF2944066706B634B0E079BE0ED /* SAConfettiView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8F9CA3E8792A9CD2EA54754CABB1B35 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */;
+			buildConfigurationList = 1A0E4EF026E0B260F082F025DA0D6974 /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
 			buildPhases = (
-				1142921930A208B64A76172CAFE2CC9B /* Sources */,
-				F1C519AF9CF1DE54D85E36A45071FE36 /* Frameworks */,
-				EE485EB5E8FFF8F3B1483EF65D7D5E50 /* Headers */,
+				AC9F7B2E546655FD694499B5A5F56C5F /* Sources */,
+				F9495F376CB15D01D57069D7039EBD81 /* Frameworks */,
+				0619BE57E14F7B56470AC065369F6D80 /* Resources */,
+				B4755C86D11FA4783B94E5CB07E53562 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23624C3AA0B6CA6D875F189B5AF13055 /* PBXTargetDependency */,
+				83C9E3327A6948F9D7C6B5CA68210F3E /* PBXTargetDependency */,
 			);
-			name = "Pods-GuessTheWord";
-			productName = "Pods-GuessTheWord";
-			productReference = 633D7BDF505E2188F809E236862D67BC /* Pods_GuessTheWord.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DFD9BD278230EB091031E7813538935D /* SkyFloatingLabelTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64D8286DCF4D216689BD68A5D13E3681 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
-			buildPhases = (
-				D7F474BD576172D9C30A2FC5482A6E01 /* Sources */,
-				C4CEA3510C2A3BB4026FEAB07451FB70 /* Frameworks */,
-				5A7E9DE60612A769569668C3CC224BB9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkyFloatingLabelTextField;
-			productName = SkyFloatingLabelTextField;
-			productReference = DA6BDD7A6B921406311D47C26DB120B5 /* SkyFloatingLabelTextField.framework */;
+			name = SAConfettiView;
+			productName = SAConfettiView;
+			productReference = 8701C7764D0E354C5C319AC68C4BAB93 /* SAConfettiView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4514621591EC47D180FD410287B905A /* Pods-GuessTheWordUITests */ = {
@@ -374,7 +434,7 @@
 			);
 			name = "Pods-GuessTheWordUITests";
 			productName = "Pods-GuessTheWordUITests";
-			productReference = 53EC18AF280E19D4645D86F7CF06CC3E /* Pods_GuessTheWordUITests.framework */;
+			productReference = 784DD34A5DFC6255345780B5AD9C4AD6 /* Pods_GuessTheWordUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -394,24 +454,56 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 22BE21C78C4A0DAC64F6E147F68D32DD /* Products */;
+			productRefGroup = CCA1DAF502F99A72B455A50D8BCE9180 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EB5E6632E2A6B66B150087A049F0431 /* Pods-GuessTheWord */,
+				4C2376D7B906C5E2E077B11A4F270B61 /* Pods-GuessTheWord */,
 				8CA3B2ACE314E9C0EFF4E76C332C52CD /* Pods-GuessTheWordTests */,
 				F4514621591EC47D180FD410287B905A /* Pods-GuessTheWordUITests */,
-				DFD9BD278230EB091031E7813538935D /* SkyFloatingLabelTextField */,
+				904EECF2944066706B634B0E079BE0ED /* SAConfettiView */,
+				0C49FBDA0B9AE9E7A7D8C4E2E7A8425E /* SAConfettiView-SAConfettiView */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0619BE57E14F7B56470AC065369F6D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5E8842BE52E5DD870168D2F7233FB9 /* SAConfettiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C76CF2D37FB3685B051300CFA1B380A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408866751326C56BDDC3F49A7578F691 /* confetti.png in Resources */,
+				DD0B3FE65641731ED055D31560A45E84 /* diamond.png in Resources */,
+				235280DCD69555C9023BA81E84502555 /* star.png in Resources */,
+				1004D34C455F8166BE516DB0ADAECDD2 /* triangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1142921930A208B64A76172CAFE2CC9B /* Sources */ = {
+		64373593A39B814B9BBBEE6CCF1129CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4153C33F8029B48104C17B7DF824355 /* Pods-GuessTheWord-dummy.m in Sources */,
+				000B2A6EC0F9251F50B662558BAB5277 /* Pods-GuessTheWord-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9F7B2E546655FD694499B5A5F56C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34263BF42DFD9BEEAC0BFFF26DEF2FD1 /* SAConfettiView-dummy.m in Sources */,
+				D9115A02737603D18099556540968F9C /* SAConfettiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,41 +523,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F474BD576172D9C30A2FC5482A6E01 /* Sources */ = {
+		D57020FB4441873A1EB4F8CE0C143075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65318BE42F71518608B9FD1A2B66CC9 /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				F92D3FDDB980036DC2C2136A885DEEE3 /* SkyFloatingLabelTextField.swift in Sources */,
-				B85818470172B049D7EB5606C2D2596F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				7E04D2CA0340CD533178AF45017B2B02 /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23624C3AA0B6CA6D875F189B5AF13055 /* PBXTargetDependency */ = {
+		3C625BF20B5911F2C426A288CB66B651 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SkyFloatingLabelTextField;
-			target = DFD9BD278230EB091031E7813538935D /* SkyFloatingLabelTextField */;
-			targetProxy = 34E87F1B5ECBE534CA09256013EB9463 /* PBXContainerItemProxy */;
+			name = SAConfettiView;
+			target = 904EECF2944066706B634B0E079BE0ED /* SAConfettiView */;
+			targetProxy = 7D62A60BE9B144827CE27A278D2A3FED /* PBXContainerItemProxy */;
 		};
 		46D1860C9EC0087120C4C055EA993913 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GuessTheWord";
-			target = 8EB5E6632E2A6B66B150087A049F0431 /* Pods-GuessTheWord */;
+			target = 4C2376D7B906C5E2E077B11A4F270B61 /* Pods-GuessTheWord */;
 			targetProxy = 7611D33D19E4B0237BC06AFA8015086F /* PBXContainerItemProxy */;
+		};
+		83C9E3327A6948F9D7C6B5CA68210F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAConfettiView-SAConfettiView";
+			target = 0C49FBDA0B9AE9E7A7D8C4E2E7A8425E /* SAConfettiView-SAConfettiView */;
+			targetProxy = E9E399ACAC41F80027FB4235F1802E3B /* PBXContainerItemProxy */;
 		};
 		915BF7EB656832DF5B48821B2148CF5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GuessTheWord";
-			target = 8EB5E6632E2A6B66B150087A049F0431 /* Pods-GuessTheWord */;
+			target = 4C2376D7B906C5E2E077B11A4F270B61 /* Pods-GuessTheWord */;
 			targetProxy = 04A60BEF262041FCC08CE2BA6C2D1CB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		090039A14A02E1A33AA1E5917F012A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,86 +663,6 @@
 			};
 			name = Debug;
 		};
-		23CD29BBE8C8F1B764B3264B6C6EEFB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3D42907E553F8280503CABD2C55B7B18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59A86F875BED558C0A3FD7BCF97FE48C /* Pods-GuessTheWord.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		50E9A1539D8BECB8B063E8B819CB32DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60085BE28E184C5D78E3433D6A2A6B01 /* Pods-GuessTheWordUITests.debug.xcconfig */;
@@ -644,6 +698,38 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		668ECD66119DF8FDD53CB093D8DD1C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		78FAA416C2C858327B87741D224B1AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -686,10 +772,12 @@
 			};
 			name = Release;
 		};
-		991F8A2286F4FA4BD0ACEEC990C4B375 /* Debug */ = {
+		94D25BF001F646270919E4353EDA2859 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = 59A86F875BED558C0A3FD7BCF97FE48C /* Pods-GuessTheWord.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -699,65 +787,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BBE415DF6E3C57485B8838BDF36E8FCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CB7B2F50E33A31C6BD13BEECC5C3DB2E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -894,9 +947,100 @@
 			};
 			name = Release;
 		};
+		E2431B4A319222F7CC02B2B32B2E218C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8301D59BC97BA3CF0F818BE652FCA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC8CCC6FF2C8D1FFE59DE41D82CE3BE /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		151836EA262945ABCE325DA097A95B18 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FAA416C2C858327B87741D224B1AA2 /* Debug */,
+				668ECD66119DF8FDD53CB093D8DD1C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0E4EF026E0B260F082F025DA0D6974 /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2431B4A319222F7CC02B2B32B2E218C /* Debug */,
+				F8301D59BC97BA3CF0F818BE652FCA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -924,20 +1068,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64D8286DCF4D216689BD68A5D13E3681 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+		67410E22F4761E3F909D5EB30E434EAE /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				991F8A2286F4FA4BD0ACEEC990C4B375 /* Debug */,
-				BBE415DF6E3C57485B8838BDF36E8FCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8F9CA3E8792A9CD2EA54754CABB1B35 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D42907E553F8280503CABD2C55B7B18 /* Debug */,
-				23CD29BBE8C8F1B764B3264B6C6EEFB7 /* Release */,
+				94D25BF001F646270919E4353EDA2859 /* Debug */,
+				090039A14A02E1A33AA1E5917F012A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SAConfettiView
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var wordLengthLabel: UILabel!
     @IBOutlet weak var guessField: UITextField!
+    @IBOutlet weak var confettiView: SAConfettiView!
     
     let words = ["Hello", "Berkeley", "Oski", "iPhone"]
     let hints = ["How do you do?", "The school we are at", "go berz", "We are making an app for it."]
@@ -37,11 +39,13 @@ class ViewController: UIViewController {
     }
     
     func guessedCorrect() {
+        confettiView.startConfetti()
         successfullyGuessed.append(currentWord)
         successfullyGuessedCounts.append(numGuesses)
         let rightAlert = UIAlertController(title: "Nice!", message: "You got the word in " + String(numGuesses) + " tries!", preferredStyle: UIAlertController.Style.alert)
         rightAlert.addAction(UIAlertAction(title: "Play Again", style: .default, handler: { action in
             print("Pressed play again")
+            self.confettiView.stopConfetti()
             self.dismiss(animated: true, completion: nil)
             self.setWord()
         }))
@@ -49,6 +53,7 @@ class ViewController: UIViewController {
             print("Pressed view history")
             self.dismiss(animated: true, completion: nil)
             self.setWord()
+            self.confettiView.stopConfetti()
             self.tappedHistory(self)
         }))
         self.present(rightAlert, animated: true, completion: nil)
@@ -59,7 +64,7 @@ class ViewController: UIViewController {
         wrongAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(wrongAlert, animated: true, completion: nil)
     }
-
+ 
     @IBAction func tappedGuess(_ sender: Any) {
         numGuesses = numGuesses + 1
         let word = guessField.text

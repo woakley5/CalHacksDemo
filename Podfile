@@ -8,7 +8,7 @@ target 'GuessTheWord' do
   use_frameworks!
 
   # Pods for GuessTheWord
-  pod 'SkyFloatingLabelTextField'
+  pod "SAConfettiView"
   
   target 'GuessTheWordTests' do
     inherit! :search_paths
