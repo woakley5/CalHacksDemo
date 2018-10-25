@@ -1,0 +1,6 @@
+framework module Pods_GuessTheWord {
+  umbrella header "Pods-GuessTheWord-umbrella.h"
+
+  export *
+  module * { export * }
+}

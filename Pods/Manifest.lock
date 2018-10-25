@@ -1,0 +1,20 @@
+PODS:
+  - LGButton (1.0.5)
+  - SAConfettiView (0.1.8)
+
+DEPENDENCIES:
+  - LGButton
+  - SAConfettiView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LGButton
+    - SAConfettiView
+
+SPEC CHECKSUMS:
+  LGButton: 707ce916eb80b73a6c4688df34bee11adbafb663
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+
+PODFILE CHECKSUM: 326a4eb4b6093c8d976838d22f25b6aca7d2ac21
+
+COCOAPODS: 1.5.2
