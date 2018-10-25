@@ -9,6 +9,7 @@ target 'GuessTheWord' do
 
   # Pods for GuessTheWord
   pod "SAConfettiView"
+  pod 'LGButton'
   
   target 'GuessTheWordTests' do
     inherit! :search_paths

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SkyFloatingLabelTextFieldVersionNumber;
-FOUNDATION_EXPORT const unsigned char SkyFloatingLabelTextFieldVersionString[];
+FOUNDATION_EXPORT double LGButtonVersionNumber;
+FOUNDATION_EXPORT const unsigned char LGButtonVersionString[];
 

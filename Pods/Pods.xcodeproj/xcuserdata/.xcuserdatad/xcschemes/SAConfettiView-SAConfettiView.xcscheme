@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0BC2E34B10E745599268AA004899F90"
-               BlueprintName = "Pods-GuessTheWord"
+               BlueprintIdentifier = "74A7E85975F4BA39E20585E4F97B60BF"
+               BlueprintName = "SAConfettiView-SAConfettiView"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-GuessTheWord.framework">
+               BuildableName = "SAConfettiView-SAConfettiView.bundle">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
