@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import SAConfettiView
+import ConfettiView
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var wordLengthLabel: UILabel!
     @IBOutlet weak var guessField: UITextField!
-    @IBOutlet weak var confettiView: SAConfettiView!
+    @IBOutlet weak var confettiView: ConfettiView!
     
     /* Arrays of the words and hints used in the game. Randomly chosen by setWord() */
     
@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        confettiView.stopAnimating()
         setWord()
     }
     
@@ -46,13 +47,13 @@ class ViewController: UIViewController {
     /* Function that is called when word in text field is successfully matched with currentWord.
      Adds word to successfullyGuessed and shows alert to user that they won round with option to view history. */
     func guessedCorrect() {
-        confettiView.startConfetti()
+        confettiView.startAnimating()
         successfullyGuessed.append(currentWord)
         successfullyGuessedCounts.append(numGuesses)
         let rightAlert = UIAlertController(title: "Nice!", message: "You got the word in " + String(numGuesses) + " tries!", preferredStyle: UIAlertController.Style.alert)
         rightAlert.addAction(UIAlertAction(title: "Play Again", style: .default, handler: { action in
             print("Pressed play again")
-            self.confettiView.stopConfetti()
+            self.confettiView.stopAnimating()
             self.dismiss(animated: true, completion: nil)
             self.setWord()
         }))
@@ -60,7 +61,7 @@ class ViewController: UIViewController {
             print("Pressed view history")
             self.dismiss(animated: true, completion: nil)
             self.setWord()
-            self.confettiView.stopConfetti()
+            self.confettiView.stopAnimating()
             self.tappedHistory(self)
         }))
         self.present(rightAlert, animated: true, completion: nil)
