@@ -3,52 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E376A3BB1FBA1BCD8E98C70C180AED /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 434804422E6C110DEE4E1C99134AC101 /* map-icons.ttf */; };
-		0D4C0E7620A522EC24A6CF3345B85237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		17A3D7C8EDBB67AD61EB1B7275521E69 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B329E4910700FCDB159110B6CD49106F /* LGButton-dummy.m */; };
-		1D2926257539E65F9D46C11648F08DE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
-		1EA43895FFFA8B57AE7DA63863BC50B0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85922ED39E1A36BB7CF0F2768294834C /* Ionicons.ttf */; };
-		217AFBC3B0190F7F4FC0D580E54DF4BD /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090F4E4DCCA48B1A508A7883A5E734F8 /* Octicon.swift */; };
-		2360FBE6DF446912BFD2D1D91937ADE1 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EFAFF43D0904427152191D89475C1C /* confetti.png */; };
-		3B104FDEB4FCC66AF234D20E48B3D848 /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EDE87F412505B0B1A457A41CBB761E /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D3DAEA0B7BE78A321C1F06EDE48033A /* Pods-GuessTheWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */; };
-		5159D59724BDD166CCB121F1689345C8 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2041325954AEC44D98C1CF7C531C9FB1 /* MaterialIcons-Regular.ttf */; };
-		52B216B5F7FB33D92555AA2581C3FB52 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8637413565EA017908D2FBE59B8964 /* triangle.png */; };
-		5436738876707F72F261FF0F1A26F4C6 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38726225637299922D4333F3096D2D3C /* SwiftIconFont.swift */; };
-		5A5C78553CE0FCA9FDEC2C470FE02920 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40359E5F9BFCA174FF704E79ABAC107A /* FontAwesome.swift */; };
-		5B5538175381EAC7BB57396DDBDFAAB3 /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA254D06D7294440D36CDED5077DA25 /* MapIcon.swift */; };
-		6F2653432A6F8B200DB364A2FEAE8FBE /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12480259DF51C5761FCADBEB4DD59F /* SAConfettiView.swift */; };
-		6F3BA00A979B661C651793EC2989C0D2 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C070DC73BEFC9913D04790356AF0624 /* star.png */; };
-		6FF78B02CEA53D89C4877F9C021C750F /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488F87BEF12DD337A131DDE60900D0D3 /* ThemifyIcon.swift */; };
-		73F9D6BCAF53247BF620DEEC412BFCAF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
-		7C09D74788B3D10DCF42597D80E14252 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFCE915674AC6870F91201BF8BDBE730 /* open-iconic.ttf */; };
-		875D44D0D3AF7A48260CB159D9443AE7 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E902E56A72B27C9ED0275BDCB7EF4C6D /* FontLoader.swift */; };
-		8DA4F296D3E1C47DEEA28D636C474A9D /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E11B45928FED9E528DC30ACDFCAE1E /* LGButton.swift */; };
-		8EFA25F0DF13E823904A7D18E51F85EE /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4B50902ACA3EB611958928B0334C270 /* SAConfettiView.bundle */; };
-		9017EB99C6AF6C8CECD651DF68A1576A /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BB254F6DF9F91AC7248AD5231FE266 /* LGButton.xib */; };
+		181A60662ED95FD53FAF8C0139D137AF /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD560C3DFE4DC482A934B54651FB /* ConfettiView.swift */; };
+		496E5E2334E8137AA52A8A117B8B8352 /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5DC491C6F766F9050A72FA4AADDC1 /* ConfettiLayer.swift */; };
+		588AA3A622CF1FED9BAB8CE57D9AEAA0 /* ConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6545C638DB8A82290D221F3EDCCB7E /* ConfettiView-dummy.m */; };
+		65B23C45F3E2E18F81CBC65210F73C61 /* Pods-GuessTheWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */; };
+		881E3E3DB47B941438E10B6531B241D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		955812F8FED38D8775401E5A48B9449E /* Pods-GuessTheWordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3D6D72EF9D6F5DD9F1AC6FF581135 /* Pods-GuessTheWordTests-dummy.m */; };
-		961B556D81601BD99546C99765C47FD3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD67CC6139C884B42E6E7901107F6DA5 /* FontAwesome.ttf */; };
-		9A9734FCAB2E05B12EEB7DFE5C3FA49D /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 773AB549AFE78017937348ED1CCAB38F /* diamond.png */; };
-		9D1F563614F12B89D52F59B5BC2DADCF /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA03C1FF72CC1F99058C3E58D9FD7 /* SAConfettiView-dummy.m */; };
-		AED178145B2A2D8B41A7502AE6FBFE90 /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A4433B21A8CC7C2CB048DA275B765 /* IonIcons.swift */; };
-		AF198558F21676A1C2320D98AEA9FC52 /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC18CF74FA00C3FED7B468B325945DC8 /* themify.ttf */; };
-		B52A619095A969D8706A6011EFC6B09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		B52A619095A969D8706A6011EFC6B09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		BB71289F77A11493530E6D42B3C7817B /* Pods-GuessTheWordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13BE30F87D6F170AF873E8DAB9D1AD6 /* Pods-GuessTheWordUITests-dummy.m */; };
-		C09F6C274764165CB74CB11B580881F5 /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398958CEC55AA79070FC1A6F5CD5D898 /* MaterialIcon.swift */; };
 		C0ABD69CB14CF2862DE81B9301F252A0 /* Pods-GuessTheWordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA9E4712B1FE092D1A0E2A7347049D3 /* Pods-GuessTheWordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCF172EFD8745E22A9FC5100388829DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		C619945CF6372198CF2B82AC14BA60B7 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB596354C55C7AAB9D7815AB90A9E5D8 /* ShapeView.swift */; };
+		CCF172EFD8745E22A9FC5100388829DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CCFD33B2A5F97DA7CD41C275C90341EB /* Pods-GuessTheWordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3377354A9D05BF57FEE411346A53E8F5 /* Pods-GuessTheWordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D09EBC74F6D53E512F093E54B1D8AB1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		DCE087FEC87CB82A160D832E65759D8E /* Pods-GuessTheWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0AB01C792C2F3E9BDD22AB821EF0C02 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179915261B1892B664D97EA353E6D /* Iconic.swift */; };
-		E2E14F217F4097497075816715F18319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		E81B107B06C1AC312AA7636B1E1301DE /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D201454454ABA64CAB2AF90A828A8F /* octicons.ttf */; };
-		EC1B69F907EC01229EB7655701C22F38 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA460BE112342ED359930291756C224 /* SwiftIconLabel.swift */; };
-		F4AE204EAEB3B526F04157A32888A1B4 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2772C0ED570AAEF70A901B596C14062 /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2595D9861923EFD20193AF66FC8E742 /* ConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 513C0FA8FD20FAAB136F87005A0E743D /* ConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3D7E8DB69B4FA560895BE207814A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ED6244924516B0853967E7FD00F2F67A /* Pods-GuessTheWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,143 +29,79 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D0BC2E34B10E745599268AA004899F90;
+			remoteGlobalIDString = 9B5AFF4CC076EE5028C3164D9BA8A6AB;
 			remoteInfo = "Pods-GuessTheWord";
 		};
 		7611D33D19E4B0237BC06AFA8015086F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D0BC2E34B10E745599268AA004899F90;
+			remoteGlobalIDString = 9B5AFF4CC076EE5028C3164D9BA8A6AB;
 			remoteInfo = "Pods-GuessTheWord";
 		};
-		7F6FDDDEA0783B67178F2E2397A519EC /* PBXContainerItemProxy */ = {
+		C8109A70A1C3B8A587992A7F570475C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 74A7E85975F4BA39E20585E4F97B60BF;
-			remoteInfo = "SAConfettiView-SAConfettiView";
-		};
-		A0F84F8B3CA1233ED66FD5B68A457B48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCB2B03C26F284864226302AFAEC546C;
-			remoteInfo = LGButton;
-		};
-		D31378984AA9E86819F8AA7322F552CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87B49989A29F35A05594D27C5457FE6D;
-			remoteInfo = SAConfettiView;
+			remoteGlobalIDString = C6BEE7C7E0EA6DFECAC6FC61CCF30D11;
+			remoteInfo = ConfettiView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013179915261B1892B664D97EA353E6D /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = LGButton/Classes/SwiftIconFont/Iconic.swift; sourceTree = "<group>"; };
-		0270C530411A083FCC87CAEEAFC0082B /* Pods_GuessTheWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheWordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		090F4E4DCCA48B1A508A7883A5E734F8 /* Octicon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Octicon.swift; path = LGButton/Classes/SwiftIconFont/Octicon.swift; sourceTree = "<group>"; };
+		04FF4893B28FB8CB160BEEC7BE243EAD /* Pods_GuessTheWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordTests.framework; path = "Pods-GuessTheWordTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1915D1D336EAF55AAA9095DBB6D6EB7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C070DC73BEFC9913D04790356AF0624 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
 		1D5BFE3FB1F635489B4BD8F7BD20CFEF /* Pods-GuessTheWordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EFF889DCB24CDCDEFE18F950E96BCD8 /* Pods-GuessTheWordTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordTests-resources.sh"; sourceTree = "<group>"; };
-		2041325954AEC44D98C1CF7C531C9FB1 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
-		22C632DE7C4A79A913D3BF62B5776B15 /* Pods_GuessTheWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheWordUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E4A828E7E624A4D7F841F0D784CB965 /* LGButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.xcconfig; sourceTree = "<group>"; };
-		328A4433B21A8CC7C2CB048DA275B765 /* IonIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IonIcons.swift; path = LGButton/Classes/SwiftIconFont/IonIcons.swift; sourceTree = "<group>"; };
-		334F66E23A4BA9772772CC4E8E218D5B /* LGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E481B819533675BB8A7E0902E0FA0C /* ConfettiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConfettiView.xcconfig; sourceTree = "<group>"; };
+		264124B07A7E6C84C76CBFDCC4F10B5E /* ConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConfettiView.modulemap; sourceTree = "<group>"; };
 		3377354A9D05BF57FEE411346A53E8F5 /* Pods-GuessTheWordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWordTests-umbrella.h"; sourceTree = "<group>"; };
-		38726225637299922D4333F3096D2D3C /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
-		398958CEC55AA79070FC1A6F5CD5D898 /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = LGButton/Classes/SwiftIconFont/MaterialIcon.swift; sourceTree = "<group>"; };
-		40359E5F9BFCA174FF704E79ABAC107A /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
 		41CF2997ABF57E99DBF0F2BF1B11BCF9 /* Pods-GuessTheWordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		434804422E6C110DEE4E1C99134AC101 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
-		488F87BEF12DD337A131DDE60900D0D3 /* ThemifyIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemifyIcon.swift; path = LGButton/Classes/SwiftIconFont/ThemifyIcon.swift; sourceTree = "<group>"; };
+		513C0FA8FD20FAAB136F87005A0E743D /* ConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-umbrella.h"; sourceTree = "<group>"; };
 		548101A86C14E49FEB5652692A1208FF /* Pods-GuessTheWord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWord-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59A86F875BED558C0A3FD7BCF97FE48C /* Pods-GuessTheWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWord.debug.xcconfig"; sourceTree = "<group>"; };
-		5B6CA03C1FF72CC1F99058C3E58D9FD7 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60085BE28E184C5D78E3433D6A2A6B01 /* Pods-GuessTheWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62270B9A47A6BFD1FC61989CF34202D9 /* Pods-GuessTheWordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWordUITests.modulemap"; sourceTree = "<group>"; };
 		635B876ABE17D239203D41B2DA96CA4D /* Pods-GuessTheWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66C57791941CB0ADB3B1F54630AF05E6 /* Pods-GuessTheWordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWordTests.modulemap"; sourceTree = "<group>"; };
-		6A12480259DF51C5761FCADBEB4DD59F /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
-		75E11B45928FED9E528DC30ACDFCAE1E /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
-		773AB549AFE78017937348ED1CCAB38F /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		6CD0E82E254433BAE4446B0553575181 /* Pods_GuessTheWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWord.framework; path = "Pods-GuessTheWord.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6545C638DB8A82290D221F3EDCCB7E /* ConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConfettiView-dummy.m"; sourceTree = "<group>"; };
 		7CD737F00A0E5EA33EEB29F7B73B8365 /* Pods-GuessTheWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7DA254D06D7294440D36CDED5077DA25 /* MapIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapIcon.swift; path = LGButton/Classes/SwiftIconFont/MapIcon.swift; sourceTree = "<group>"; };
-		85922ED39E1A36BB7CF0F2768294834C /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
-		8CA460BE112342ED359930291756C224 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
-		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		920EB261031854A4D506A9225E7ADE57 /* Pods-GuessTheWord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheWord.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A531F6D0175D7B69F801FC431E0D722F /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
-		A589182C5B7CD2879005792F7E19A4C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6EDE87F412505B0B1A457A41CBB761E /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
-		A8C7DC635432F5550BF873B001A222C4 /* ResourceBundle-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
-		AD67CC6139C884B42E6E7901107F6DA5 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
-		B0F32E31B6AEEE836E46C248A6FFBB8A /* Pods_GuessTheWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2367FE1D4296FB1AFA4215806C0897F /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
-		B329E4910700FCDB159110B6CD49106F /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C9A29ECC2581F969618C990C910F7C /* ConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		9AD5DC491C6F766F9050A72FA4AADDC1 /* ConfettiLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiLayer.swift; path = ConfettiView/Classes/ConfettiLayer.swift; sourceTree = "<group>"; };
+		A143700E2A489EB98EC7951D54EA1A2F /* ConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConfettiView.framework; path = ConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B605A2FA70AAC37D75DC1B6A1E54319D /* Pods-GuessTheWordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordUITests-frameworks.sh"; sourceTree = "<group>"; };
 		B651B0404085A9B8D62162442C7DF3C2 /* Pods-GuessTheWord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWord-frameworks.sh"; sourceTree = "<group>"; };
-		B7ACBF44DBB4BCB837EA4D3271497D7B /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA22F49C822F9D84065B72A6C3445A6F /* Pods-GuessTheWordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordTests-frameworks.sh"; sourceTree = "<group>"; };
+		BB596354C55C7AAB9D7815AB90A9E5D8 /* ShapeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeView.swift; path = ConfettiView/Classes/ShapeView.swift; sourceTree = "<group>"; };
 		BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWord.release.xcconfig"; sourceTree = "<group>"; };
-		C32F81C1C016567454A3280390760E7A /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGButton.modulemap; sourceTree = "<group>"; };
 		C6B6D41DA49E75826C09FF2938C60AB4 /* Pods-GuessTheWordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWordTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C77745431CD5365A5EBEA6BD2092D780 /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
 		C9FDBFC96A76645658A5131BCD2259F6 /* Pods-GuessTheWord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheWord-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB16BF1DA8DAA4F30D44AA9605D13BD4 /* Pods-GuessTheWord-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWord-resources.sh"; sourceTree = "<group>"; };
-		CC18CF74FA00C3FED7B468B325945DC8 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
 		CE29CEEDC33E34CA3E47CD310940A7EB /* Pods-GuessTheWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheWordTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE9FFD560C3DFE4DC482A934B54651FB /* ConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = ConfettiView/Classes/ConfettiView.swift; sourceTree = "<group>"; };
 		CECB0A8B4783F528AD6ECE4A98D05E41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFCE915674AC6870F91201BF8BDBE730 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
-		D2772C0ED570AAEF70A901B596C14062 /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
+		CFC481C2C07C7C2FA0F1CB9BFC4C6ABB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C3D6D72EF9D6F5DD9F1AC6FF581135 /* Pods-GuessTheWordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWordTests-dummy.m"; sourceTree = "<group>"; };
-		D4B50902ACA3EB611958928B0334C270 /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAConfettiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.xcconfig; sourceTree = "<group>"; };
 		D89F581C707A201E2120263993D2CED2 /* Pods-GuessTheWordUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuessTheWordUITests-resources.sh"; sourceTree = "<group>"; };
 		DC6B93B6C5275E5F4CFD51B778FC69FD /* Pods-GuessTheWordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheWordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE8637413565EA017908D2FBE59B8964 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
 		E13BE30F87D6F170AF873E8DAB9D1AD6 /* Pods-GuessTheWordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWordUITests-dummy.m"; sourceTree = "<group>"; };
 		E40A39C7652B3D969F82038C8DE4756B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E902E56A72B27C9ED0275BDCB7EF4C6D /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
 		E9B3B1449B542F8A8F8D27699FF4DD2D /* Pods-GuessTheWord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWord-umbrella.h"; sourceTree = "<group>"; };
 		EDA9E4712B1FE092D1A0E2A7347049D3 /* Pods-GuessTheWordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheWordUITests-umbrella.h"; sourceTree = "<group>"; };
-		F22CB7B065F36F6AF50D1F9EA23D10A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5BB254F6DF9F91AC7248AD5231FE266 /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
 		F65D11A0F4C1EA6F92CD9713102B7511 /* Pods-GuessTheWord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheWord-dummy.m"; sourceTree = "<group>"; };
-		F9D201454454ABA64CAB2AF90A828A8F /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
-		F9EFAFF43D0904427152191D89475C1C /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		FB16F838F575AE7311C7DB4B3776A688 /* Pods_GuessTheWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheWordUITests.framework; path = "Pods-GuessTheWordUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EF9DE0B38D8857DDBFBC32BAD90D509 /* Frameworks */ = {
+		0D6CE166E0CCF14FAE1D5DFD99087A6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4C0E7620A522EC24A6CF3345B85237 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BB46387B9F45977951D9B3295DA6F17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2E14F217F4097497075816715F18319 /* Foundation.framework in Frameworks */,
-				73F9D6BCAF53247BF620DEEC412BFCAF /* QuartzCore.framework in Frameworks */,
-				1D2926257539E65F9D46C11648F08DE2 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33D308CE8EF1EF37F920ECFAA9279D29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D09EBC74F6D53E512F093E54B1D8AB1E /* Foundation.framework in Frameworks */,
+				EB3D7E8DB69B4FA560895BE207814A53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,66 +121,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7625A8DFA37F68192AB72938244D8C9 /* Frameworks */ = {
+		F0CA7D2C476B8F0DB57D0DE73CB68207 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881E3E3DB47B941438E10B6531B241D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00D77BB74BAF7FFC6B1CC9FE19E17F7F /* LGButton */ = {
+		1DAFBF1CB9AE2A1E7159800B122898D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40359E5F9BFCA174FF704E79ABAC107A /* FontAwesome.swift */,
-				E902E56A72B27C9ED0275BDCB7EF4C6D /* FontLoader.swift */,
-				013179915261B1892B664D97EA353E6D /* Iconic.swift */,
-				328A4433B21A8CC7C2CB048DA275B765 /* IonIcons.swift */,
-				75E11B45928FED9E528DC30ACDFCAE1E /* LGButton.swift */,
-				7DA254D06D7294440D36CDED5077DA25 /* MapIcon.swift */,
-				398958CEC55AA79070FC1A6F5CD5D898 /* MaterialIcon.swift */,
-				090F4E4DCCA48B1A508A7883A5E734F8 /* Octicon.swift */,
-				38726225637299922D4333F3096D2D3C /* SwiftIconFont.swift */,
-				8CA460BE112342ED359930291756C224 /* SwiftIconLabel.swift */,
-				488F87BEF12DD337A131DDE60900D0D3 /* ThemifyIcon.swift */,
-				9EC7CAE4802E1EE789E0D9B26B8A46FF /* Resources */,
-				051127B88C412EAF87DE088F776A5BD4 /* Support Files */,
-			);
-			path = LGButton;
-			sourceTree = "<group>";
-		};
-		051127B88C412EAF87DE088F776A5BD4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A589182C5B7CD2879005792F7E19A4C1 /* Info.plist */,
-				C32F81C1C016567454A3280390760E7A /* LGButton.modulemap */,
-				2E4A828E7E624A4D7F841F0D784CB965 /* LGButton.xcconfig */,
-				B329E4910700FCDB159110B6CD49106F /* LGButton-dummy.m */,
-				A531F6D0175D7B69F801FC431E0D722F /* LGButton-prefix.pch */,
-				D2772C0ED570AAEF70A901B596C14062 /* LGButton-umbrella.h */,
+				264124B07A7E6C84C76CBFDCC4F10B5E /* ConfettiView.modulemap */,
+				23E481B819533675BB8A7E0902E0FA0C /* ConfettiView.xcconfig */,
+				6F6545C638DB8A82290D221F3EDCCB7E /* ConfettiView-dummy.m */,
+				97C9A29ECC2581F969618C990C910F7C /* ConfettiView-prefix.pch */,
+				513C0FA8FD20FAAB136F87005A0E743D /* ConfettiView-umbrella.h */,
+				CFC481C2C07C7C2FA0F1CB9BFC4C6ABB /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/LGButton";
+			path = "../Target Support Files/ConfettiView";
 			sourceTree = "<group>";
 		};
-		062F27A917893AB60C0BE764A2F1273A /* SAConfettiView */ = {
+		4746CA0C7739E49ED28A07A2D6C7FAE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A12480259DF51C5761FCADBEB4DD59F /* SAConfettiView.swift */,
-				EA1EB0A92F59465CF6372B70F316F3D1 /* Resources */,
-				BDDBC9B623F423C2A8C478CF236A329F /* Support Files */,
+				A143700E2A489EB98EC7951D54EA1A2F /* ConfettiView.framework */,
+				6CD0E82E254433BAE4446B0553575181 /* Pods_GuessTheWord.framework */,
+				04FF4893B28FB8CB160BEEC7BE243EAD /* Pods_GuessTheWordTests.framework */,
+				FB16F838F575AE7311C7DB4B3776A688 /* Pods_GuessTheWordUITests.framework */,
 			);
-			path = SAConfettiView;
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		498BFCB39438E1CAFEFDBFC483780368 /* Pods-GuessTheWordTests */ = {
@@ -292,13 +175,21 @@
 			path = "Target Support Files/Pods-GuessTheWordTests";
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				ABCDFC084B9FA88BC0C17EF1AB06FA77 /* Pods */,
-				B574F02A997FC7B8826CDEE991D3B3CB /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E7FFE7F59E0B87C435A6401A8872A22C /* Pods */,
+				4746CA0C7739E49ED28A07A2D6C7FAE5 /* Products */,
 				900BB216CF7C7FAF32310F4DB95FF26E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -313,66 +204,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
-				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
-				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9EC7CAE4802E1EE789E0D9B26B8A46FF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AD67CC6139C884B42E6E7901107F6DA5 /* FontAwesome.ttf */,
-				85922ED39E1A36BB7CF0F2768294834C /* Ionicons.ttf */,
-				F5BB254F6DF9F91AC7248AD5231FE266 /* LGButton.xib */,
-				434804422E6C110DEE4E1C99134AC101 /* map-icons.ttf */,
-				2041325954AEC44D98C1CF7C531C9FB1 /* MaterialIcons-Regular.ttf */,
-				F9D201454454ABA64CAB2AF90A828A8F /* octicons.ttf */,
-				CFCE915674AC6870F91201BF8BDBE730 /* open-iconic.ttf */,
-				CC18CF74FA00C3FED7B468B325945DC8 /* themify.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		ABCDFC084B9FA88BC0C17EF1AB06FA77 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				00D77BB74BAF7FFC6B1CC9FE19E17F7F /* LGButton */,
-				062F27A917893AB60C0BE764A2F1273A /* SAConfettiView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B574F02A997FC7B8826CDEE991D3B3CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				334F66E23A4BA9772772CC4E8E218D5B /* LGButton.framework */,
-				B0F32E31B6AEEE836E46C248A6FFBB8A /* Pods_GuessTheWord.framework */,
-				0270C530411A083FCC87CAEEAFC0082B /* Pods_GuessTheWordTests.framework */,
-				22C632DE7C4A79A913D3BF62B5776B15 /* Pods_GuessTheWordUITests.framework */,
-				D4B50902ACA3EB611958928B0334C270 /* SAConfettiView.bundle */,
-				B7ACBF44DBB4BCB837EA4D3271497D7B /* SAConfettiView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BDDBC9B623F423C2A8C478CF236A329F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F22CB7B065F36F6AF50D1F9EA23D10A5 /* Info.plist */,
-				A8C7DC635432F5550BF873B001A222C4 /* ResourceBundle-SAConfettiView-Info.plist */,
-				C77745431CD5365A5EBEA6BD2092D780 /* SAConfettiView.modulemap */,
-				D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */,
-				5B6CA03C1FF72CC1F99058C3E58D9FD7 /* SAConfettiView-dummy.m */,
-				B2367FE1D4296FB1AFA4215806C0897F /* SAConfettiView-prefix.pch */,
-				A6EDE87F412505B0B1A457A41CBB761E /* SAConfettiView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SAConfettiView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C0B656C75DFC9DA0BC63977637653CD5 /* Pods-GuessTheWord */ = {
@@ -393,15 +230,24 @@
 			path = "Target Support Files/Pods-GuessTheWord";
 			sourceTree = "<group>";
 		};
-		EA1EB0A92F59465CF6372B70F316F3D1 /* Resources */ = {
+		E5973074634FF67190A2E82349A9AB23 /* ConfettiView */ = {
 			isa = PBXGroup;
 			children = (
-				F9EFAFF43D0904427152191D89475C1C /* confetti.png */,
-				773AB549AFE78017937348ED1CCAB38F /* diamond.png */,
-				1C070DC73BEFC9913D04790356AF0624 /* star.png */,
-				DE8637413565EA017908D2FBE59B8964 /* triangle.png */,
+				9AD5DC491C6F766F9050A72FA4AADDC1 /* ConfettiLayer.swift */,
+				CE9FFD560C3DFE4DC482A934B54651FB /* ConfettiView.swift */,
+				BB596354C55C7AAB9D7815AB90A9E5D8 /* ShapeView.swift */,
+				1DAFBF1CB9AE2A1E7159800B122898D5 /* Support Files */,
 			);
-			name = Resources;
+			name = ConfettiView;
+			path = ConfettiView;
+			sourceTree = "<group>";
+		};
+		E7FFE7F59E0B87C435A6401A8872A22C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5973074634FF67190A2E82349A9AB23 /* ConfettiView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F90047153F2C92DA6CBCEBB74120E80D /* Pods-GuessTheWordUITests */ = {
@@ -425,22 +271,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		247143850B409D083DAFDB21C52B443D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4AE204EAEB3B526F04157A32888A1B4 /* LGButton-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56D27DD5E6630434E410C352E2F79F3C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B104FDEB4FCC66AF234D20E48B3D848 /* SAConfettiView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66896984F8393A9B523279CC5ED7BAAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,11 +279,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796EBD5B67B78628ECDCBB74473154EC /* Headers */ = {
+		8631BF78C2D5A418F797625D7C297A92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE087FEC87CB82A160D832E65759D8E /* Pods-GuessTheWord-umbrella.h in Headers */,
+				ED6244924516B0853967E7FD00F2F67A /* Pods-GuessTheWord-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C190A8947EF5EBE472FC0EC6842B6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2595D9861923EFD20193AF66FC8E742 /* ConfettiView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,42 +306,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		74A7E85975F4BA39E20585E4F97B60BF /* SAConfettiView-SAConfettiView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB489CB362A2880D44B59D531C7C8072 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
-			buildPhases = (
-				69B1482062AEE1D84A9502369C581A26 /* Sources */,
-				C7625A8DFA37F68192AB72938244D8C9 /* Frameworks */,
-				2FF346DCA5B91D032BB518BC33C94859 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SAConfettiView-SAConfettiView";
-			productName = "SAConfettiView-SAConfettiView";
-			productReference = D4B50902ACA3EB611958928B0334C270 /* SAConfettiView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		87B49989A29F35A05594D27C5457FE6D /* SAConfettiView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99ED8C9215F045FCD22FA705D48CD6C4 /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
-			buildPhases = (
-				993B0C798BABC6D0A5B2A1777D36BBA2 /* Sources */,
-				1BB46387B9F45977951D9B3295DA6F17 /* Frameworks */,
-				02F7FFEC4369348D4225AD8FF6BA8C26 /* Resources */,
-				56D27DD5E6630434E410C352E2F79F3C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A251CE477E6E0F80B7E239228E686C0F /* PBXTargetDependency */,
-			);
-			name = SAConfettiView;
-			productName = SAConfettiView;
-			productReference = B7ACBF44DBB4BCB837EA4D3271497D7B /* SAConfettiView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8CA3B2ACE314E9C0EFF4E76C332C52CD /* Pods-GuessTheWordTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AD2C3DB820F13CFB14E1518BACC849 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWordTests" */;
@@ -519,44 +321,42 @@
 			);
 			name = "Pods-GuessTheWordTests";
 			productName = "Pods-GuessTheWordTests";
-			productReference = 0270C530411A083FCC87CAEEAFC0082B /* Pods_GuessTheWordTests.framework */;
+			productReference = 04FF4893B28FB8CB160BEEC7BE243EAD /* Pods_GuessTheWordTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0BC2E34B10E745599268AA004899F90 /* Pods-GuessTheWord */ = {
+		9B5AFF4CC076EE5028C3164D9BA8A6AB /* Pods-GuessTheWord */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57A81313905532B46B9492CCC3DE7ED7 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */;
+			buildConfigurationList = CABDCB7B724E0231E29113DCA9AAAA2D /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */;
 			buildPhases = (
-				0CA51C9043CE581DA63F25EF09907C43 /* Sources */,
-				0EF9DE0B38D8857DDBFBC32BAD90D509 /* Frameworks */,
-				796EBD5B67B78628ECDCBB74473154EC /* Headers */,
+				7A420C7369D9B83D5959ED79E8B558E5 /* Sources */,
+				F0CA7D2C476B8F0DB57D0DE73CB68207 /* Frameworks */,
+				8631BF78C2D5A418F797625D7C297A92 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				634528A189972658D76E358086C157FB /* PBXTargetDependency */,
-				99E11076B2A7850B3E92ACC0E4CCA9DD /* PBXTargetDependency */,
+				0A439C8BC7E6C20B3747375324CCA2E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-GuessTheWord";
 			productName = "Pods-GuessTheWord";
-			productReference = B0F32E31B6AEEE836E46C248A6FFBB8A /* Pods_GuessTheWord.framework */;
+			productReference = 6CD0E82E254433BAE4446B0553575181 /* Pods_GuessTheWord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCB2B03C26F284864226302AFAEC546C /* LGButton */ = {
+		C6BEE7C7E0EA6DFECAC6FC61CCF30D11 /* ConfettiView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8766A2CF71289D1BC5742D017FE27963 /* Build configuration list for PBXNativeTarget "LGButton" */;
+			buildConfigurationList = 2C9EFAD50ECA52A315A68CA5532D8F0C /* Build configuration list for PBXNativeTarget "ConfettiView" */;
 			buildPhases = (
-				8DB44C6DC0BA7890085BC078D495164E /* Sources */,
-				33D308CE8EF1EF37F920ECFAA9279D29 /* Frameworks */,
-				29427A1232A884F6E41E11932C2868E7 /* Resources */,
-				247143850B409D083DAFDB21C52B443D /* Headers */,
+				521FFD6F7CA8F0DC23493D0FCBFCDD4F /* Sources */,
+				0D6CE166E0CCF14FAE1D5DFD99087A6C /* Frameworks */,
+				95C190A8947EF5EBE472FC0EC6842B6B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LGButton;
-			productName = LGButton;
-			productReference = 334F66E23A4BA9772772CC4E8E218D5B /* LGButton.framework */;
+			name = ConfettiView;
+			productName = ConfettiView;
+			productReference = A143700E2A489EB98EC7951D54EA1A2F /* ConfettiView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4514621591EC47D180FD410287B905A /* Pods-GuessTheWordUITests */ = {
@@ -574,7 +374,7 @@
 			);
 			name = "Pods-GuessTheWordUITests";
 			productName = "Pods-GuessTheWordUITests";
-			productReference = 22C632DE7C4A79A913D3BF62B5776B15 /* Pods_GuessTheWordUITests.framework */;
+			productReference = FB16F838F575AE7311C7DB4B3776A688 /* Pods_GuessTheWordUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -584,7 +384,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -594,98 +394,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B574F02A997FC7B8826CDEE991D3B3CB /* Products */;
+			productRefGroup = 4746CA0C7739E49ED28A07A2D6C7FAE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCB2B03C26F284864226302AFAEC546C /* LGButton */,
-				D0BC2E34B10E745599268AA004899F90 /* Pods-GuessTheWord */,
+				C6BEE7C7E0EA6DFECAC6FC61CCF30D11 /* ConfettiView */,
+				9B5AFF4CC076EE5028C3164D9BA8A6AB /* Pods-GuessTheWord */,
 				8CA3B2ACE314E9C0EFF4E76C332C52CD /* Pods-GuessTheWordTests */,
 				F4514621591EC47D180FD410287B905A /* Pods-GuessTheWordUITests */,
-				87B49989A29F35A05594D27C5457FE6D /* SAConfettiView */,
-				74A7E85975F4BA39E20585E4F97B60BF /* SAConfettiView-SAConfettiView */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		02F7FFEC4369348D4225AD8FF6BA8C26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EFA25F0DF13E823904A7D18E51F85EE /* SAConfettiView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29427A1232A884F6E41E11932C2868E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961B556D81601BD99546C99765C47FD3 /* FontAwesome.ttf in Resources */,
-				1EA43895FFFA8B57AE7DA63863BC50B0 /* Ionicons.ttf in Resources */,
-				9017EB99C6AF6C8CECD651DF68A1576A /* LGButton.xib in Resources */,
-				02E376A3BB1FBA1BCD8E98C70C180AED /* map-icons.ttf in Resources */,
-				5159D59724BDD166CCB121F1689345C8 /* MaterialIcons-Regular.ttf in Resources */,
-				E81B107B06C1AC312AA7636B1E1301DE /* octicons.ttf in Resources */,
-				7C09D74788B3D10DCF42597D80E14252 /* open-iconic.ttf in Resources */,
-				AF198558F21676A1C2320D98AEA9FC52 /* themify.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FF346DCA5B91D032BB518BC33C94859 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2360FBE6DF446912BFD2D1D91937ADE1 /* confetti.png in Resources */,
-				9A9734FCAB2E05B12EEB7DFE5C3FA49D /* diamond.png in Resources */,
-				6F3BA00A979B661C651793EC2989C0D2 /* star.png in Resources */,
-				52B216B5F7FB33D92555AA2581C3FB52 /* triangle.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0CA51C9043CE581DA63F25EF09907C43 /* Sources */ = {
+		521FFD6F7CA8F0DC23493D0FCBFCDD4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3DAEA0B7BE78A321C1F06EDE48033A /* Pods-GuessTheWord-dummy.m in Sources */,
+				496E5E2334E8137AA52A8A117B8B8352 /* ConfettiLayer.swift in Sources */,
+				588AA3A622CF1FED9BAB8CE57D9AEAA0 /* ConfettiView-dummy.m in Sources */,
+				181A60662ED95FD53FAF8C0139D137AF /* ConfettiView.swift in Sources */,
+				C619945CF6372198CF2B82AC14BA60B7 /* ShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69B1482062AEE1D84A9502369C581A26 /* Sources */ = {
+		7A420C7369D9B83D5959ED79E8B558E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DB44C6DC0BA7890085BC078D495164E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A5C78553CE0FCA9FDEC2C470FE02920 /* FontAwesome.swift in Sources */,
-				875D44D0D3AF7A48260CB159D9443AE7 /* FontLoader.swift in Sources */,
-				E0AB01C792C2F3E9BDD22AB821EF0C02 /* Iconic.swift in Sources */,
-				AED178145B2A2D8B41A7502AE6FBFE90 /* IonIcons.swift in Sources */,
-				17A3D7C8EDBB67AD61EB1B7275521E69 /* LGButton-dummy.m in Sources */,
-				8DA4F296D3E1C47DEEA28D636C474A9D /* LGButton.swift in Sources */,
-				5B5538175381EAC7BB57396DDBDFAAB3 /* MapIcon.swift in Sources */,
-				C09F6C274764165CB74CB11B580881F5 /* MaterialIcon.swift in Sources */,
-				217AFBC3B0190F7F4FC0D580E54DF4BD /* Octicon.swift in Sources */,
-				5436738876707F72F261FF0F1A26F4C6 /* SwiftIconFont.swift in Sources */,
-				EC1B69F907EC01229EB7655701C22F38 /* SwiftIconLabel.swift in Sources */,
-				6FF78B02CEA53D89C4877F9C021C750F /* ThemifyIcon.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		993B0C798BABC6D0A5B2A1777D36BBA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D1F563614F12B89D52F59B5BC2DADCF /* SAConfettiView-dummy.m in Sources */,
-				6F2653432A6F8B200DB364A2FEAE8FBE /* SAConfettiView.swift in Sources */,
+				65B23C45F3E2E18F81CBC65210F73C61 /* Pods-GuessTheWord-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,55 +445,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0A439C8BC7E6C20B3747375324CCA2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConfettiView;
+			target = C6BEE7C7E0EA6DFECAC6FC61CCF30D11 /* ConfettiView */;
+			targetProxy = C8109A70A1C3B8A587992A7F570475C7 /* PBXContainerItemProxy */;
+		};
 		46D1860C9EC0087120C4C055EA993913 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GuessTheWord";
-			target = D0BC2E34B10E745599268AA004899F90 /* Pods-GuessTheWord */;
+			target = 9B5AFF4CC076EE5028C3164D9BA8A6AB /* Pods-GuessTheWord */;
 			targetProxy = 7611D33D19E4B0237BC06AFA8015086F /* PBXContainerItemProxy */;
-		};
-		634528A189972658D76E358086C157FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LGButton;
-			target = DCB2B03C26F284864226302AFAEC546C /* LGButton */;
-			targetProxy = A0F84F8B3CA1233ED66FD5B68A457B48 /* PBXContainerItemProxy */;
 		};
 		915BF7EB656832DF5B48821B2148CF5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GuessTheWord";
-			target = D0BC2E34B10E745599268AA004899F90 /* Pods-GuessTheWord */;
+			target = 9B5AFF4CC076EE5028C3164D9BA8A6AB /* Pods-GuessTheWord */;
 			targetProxy = 04A60BEF262041FCC08CE2BA6C2D1CB4 /* PBXContainerItemProxy */;
-		};
-		99E11076B2A7850B3E92ACC0E4CCA9DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAConfettiView;
-			target = 87B49989A29F35A05594D27C5457FE6D /* SAConfettiView */;
-			targetProxy = D31378984AA9E86819F8AA7322F552CD /* PBXContainerItemProxy */;
-		};
-		A251CE477E6E0F80B7E239228E686C0F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SAConfettiView-SAConfettiView";
-			target = 74A7E85975F4BA39E20585E4F97B60BF /* SAConfettiView-SAConfettiView */;
-			targetProxy = 7F6FDDDEA0783B67178F2E2397A519EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01B62FFF83DEFA7922B3B4DCD3669405 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -820,107 +529,7 @@
 			};
 			name = Debug;
 		};
-		18D9CE6F4DAD725A15B2AEBA94C984A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
-				PRODUCT_MODULE_NAME = SAConfettiView;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		190295D981B59126F5606773650B125F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2795A61988B29AB949BFD2F20A6E4A98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E4A828E7E624A4D7F841F0D784CB965 /* LGButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGButton/LGButton.modulemap";
-				PRODUCT_MODULE_NAME = LGButton;
-				PRODUCT_NAME = LGButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		301E09267CEADCC10ABED2623009D410 /* Debug */ = {
+		25E37D8A1703A9125898E2C9974654AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59A86F875BED558C0A3FD7BCF97FE48C /* Pods-GuessTheWord.debug.xcconfig */;
 			buildSettings = {
@@ -938,7 +547,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
 				OTHER_LDFLAGS = "";
@@ -974,7 +587,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWordUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWordUITests/Pods-GuessTheWordUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -984,6 +601,119 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5977930B28F70F0159015996163FE715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3C4B1732D246B04522C32370421ECB /* Pods-GuessTheWord.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWord/Pods-GuessTheWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		739FBD963C91962BE966C8B1F1093E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E481B819533675BB8A7E0902E0FA0C /* ConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView/ConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView/ConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75A4B5A818BE7E6E32B7622A556805C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E481B819533675BB8A7E0902E0FA0C /* ConfettiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView/ConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView/ConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1008,7 +738,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWordUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWordUITests/Pods-GuessTheWordUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1022,22 +756,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AAECB91603F2CEE3AF2CD2676FB8C27F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1059,7 +777,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWordTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWordTests/Pods-GuessTheWordTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1129,7 +851,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -1152,7 +873,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheWordTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheWordTests/Pods-GuessTheWordTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1169,75 +894,18 @@
 			};
 			name = Release;
 		};
-		DC247AFD32B27EF9609471B0F37D30DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E4A828E7E624A4D7F841F0D784CB965 /* LGButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGButton/LGButton.modulemap";
-				PRODUCT_MODULE_NAME = LGButton;
-				PRODUCT_NAME = LGButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FE3FB29B4FB0C89FBD1B2C3295CC2F3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D782696BD0911AB7305E4CACA44D94BD /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
-				PRODUCT_MODULE_NAME = SAConfettiView;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C9EFAD50ECA52A315A68CA5532D8F0C /* Build configuration list for PBXNativeTarget "ConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A4B5A818BE7E6E32B7622A556805C3 /* Debug */,
+				739FBD963C91962BE966C8B1F1093E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1256,15 +924,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57A81313905532B46B9492CCC3DE7ED7 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				301E09267CEADCC10ABED2623009D410 /* Debug */,
-				190295D981B59126F5606773650B125F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		62AD2C3DB820F13CFB14E1518BACC849 /* Build configuration list for PBXNativeTarget "Pods-GuessTheWordTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1274,29 +933,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8766A2CF71289D1BC5742D017FE27963 /* Build configuration list for PBXNativeTarget "LGButton" */ = {
+		CABDCB7B724E0231E29113DCA9AAAA2D /* Build configuration list for PBXNativeTarget "Pods-GuessTheWord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2795A61988B29AB949BFD2F20A6E4A98 /* Debug */,
-				DC247AFD32B27EF9609471B0F37D30DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99ED8C9215F045FCD22FA705D48CD6C4 /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18D9CE6F4DAD725A15B2AEBA94C984A3 /* Debug */,
-				FE3FB29B4FB0C89FBD1B2C3295CC2F3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB489CB362A2880D44B59D531C7C8072 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01B62FFF83DEFA7922B3B4DCD3669405 /* Debug */,
-				AAECB91603F2CEE3AF2CD2676FB8C27F /* Release */,
+				25E37D8A1703A9125898E2C9974654AC /* Debug */,
+				5977930B28F70F0159015996163FE715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

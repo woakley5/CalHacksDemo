@@ -8,8 +8,7 @@ target 'GuessTheWord' do
   use_frameworks!
 
   # Pods for GuessTheWord
-  pod "SAConfettiView"
-  pod 'LGButton'
+  pod 'ConfettiView'
   
   target 'GuessTheWordTests' do
     inherit! :search_paths

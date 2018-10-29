@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LGButton.xcscheme</key>
+		<key>ConfettiView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -20,16 +20,6 @@
 			<false/>
 		</dict>
 		<key>Pods-GuessTheWordUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SAConfettiView-SAConfettiView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SAConfettiView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
